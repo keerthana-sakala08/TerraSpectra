@@ -1,0 +1,33 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Frontend dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Machine learning model files
+*.pt
+*.pth
+*.h5
+*.hdf5
+
+# Large satellite and raster datasets
+*.tif
+*.tiff
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

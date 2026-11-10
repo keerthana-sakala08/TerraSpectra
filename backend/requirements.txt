@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+rasterio
+h5py
+torch
+torchvision
+fastapi
+uvicorn
+python-multipart
