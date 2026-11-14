@@ -1,29 +1,66 @@
-# TerraSpectra - Day 4
+# 
 
-## Hyperspectral Data Preprocessing
+# \# Day 4 - Hyperspectral Data Preprocessing
 
-### Objective
-Clean and prepare raw hyperspectral data for machine learning.
+# 
 
-### Implemented Features
-1. Missing value handling using per-band median.
-2. Spectral noise reduction using moving-average smoothing.
-3. Per-band Min-Max normalization.
-4. Data validation.
-5. Saving processed data in HDF5 format.
+# \## Objective
 
-### Input
-datasets/sample/hyperspectral_sample.h5
+# Prepare hyperspectral data for machine learning.
 
-### Output
-datasets/processed/processed_hyperspectral.h5
+# 
 
-### Dataset Specifications
-- Image dimensions: 128 x 128
-- Spectral bands: 224
-- Data type: Float32
-- Normalization range: 0 to 1
-- Classes: Healthy (0), Stressed (1)
+# \## Work Completed
 
-### Note
-The dataset is synthetic and intended for development and testing.
+# 1\. Loaded the original hyperspectral dataset.
+
+# 2\. Handled missing and invalid values.
+
+# 3\. Applied moving-average spectral smoothing.
+
+# 4\. Normalized spectral values between 0 and 1.
+
+# 5\. Validated processed image dimensions.
+
+# 6\. Preserved labels and wavelength information.
+
+# 7\. Saved the processed dataset in HDF5 format.
+
+# 
+
+# \## Dataset Information
+
+# \- Image dimensions: 128 x 128
+
+# \- Spectral bands: 224
+
+# \- Crop metadata: Tomato
+
+# \- Classes: Healthy (0), Stressed (1)
+
+# \- Smoothing window: 5
+
+# \- Normalization range: 0 to 1
+
+# 
+
+# \## Output
+
+# datasets/processed/processed\_hyperspectral.h5
+
+# 
+
+# \## Result
+
+# The dataset was successfully cleaned, smoothed,
+
+# normalized and validated.
+
+# 
+
+# Note: This is synthetic development data and
+
+# has not been validated using real farm measurements.
+
+# 
+
