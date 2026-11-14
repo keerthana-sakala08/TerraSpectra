@@ -1,29 +1,82 @@
-# TerraSpectra - Day 5
+# 
 
-## Principal Component Analysis
+# \# Day 5 - Principal Component Analysis (PCA)
 
-### Objective
-Reduce hyperspectral spectral dimensions while preserving important information.
+# 
 
-### Implemented Features
-1. Load preprocessed hyperspectral data.
-2. Convert the data cube into a pixel matrix.
-3. Apply PCA with three principal components.
-4. Calculate explained variance.
-5. Save the reduced data in HDF5 format.
-6. Validate the output.
+# \## Objective
 
-### Input
-datasets/processed/processed_hyperspectral.h5
+# Reduce the spectral dimensions of the hyperspectral
 
-### Output
-datasets/processed/pca_hyperspectral.h5
+# dataset using Principal Component Analysis.
 
-### Dimensions
-- Original bands: 224
-- Reduced components: 3
-- Original image: 128 x 128
-- Reduced image: 128 x 128 x 3
+# 
 
-### Note
-The dataset is synthetic and intended for development and testing.
+# \## Work Completed
+
+# 1\. Loaded the preprocessed hyperspectral dataset.
+
+# 2\. Converted image pixels into a feature matrix.
+
+# 3\. Applied PCA using scikit-learn.
+
+# 4\. Reduced 224 spectral bands to 3 components.
+
+# 5\. Calculated explained variance ratios.
+
+# 6\. Validated the PCA output.
+
+# 7\. Saved PCA features and model information.
+
+# 
+
+# \## Input Dataset
+
+# \- Image dimensions: 128 x 128
+
+# \- Original spectral bands: 224
+
+# \- Pixel feature matrix: 16384 x 224
+
+# 
+
+# \## PCA Output
+
+# \- Reduced dimensions: 128 x 128 x 3
+
+# \- Number of components: 3
+
+# \- Labels preserved: Healthy (0), Stressed (1)
+
+# 
+
+# \## Output File
+
+# datasets/processed/pca\_hyperspectral.h5
+
+# 
+
+# \## Outcome
+
+# The hyperspectral data was transformed from 224
+
+# spectral features into 3 principal components.
+
+# 
+
+# The explained variance ratio indicates how much
+
+# of the original data variation is represented
+
+# by the selected components.
+
+# 
+
+# Note: PCA is a dimensionality-reduction technique.
+
+# It does not independently identify crop diseases.
+
+# The current dataset is synthetic.
+
+# 
+
