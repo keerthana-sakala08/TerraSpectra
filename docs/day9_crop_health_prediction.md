@@ -1,5 +1,3 @@
-
-
 *# TerraSpectra - Day 9*
 
 *## Crop Health Prediction and Heatmap Generation*
@@ -83,8 +81,4 @@
 *### Status*
 
 *Day 9 prediction and heatmap generation completed.*
-
-
-
-
 
